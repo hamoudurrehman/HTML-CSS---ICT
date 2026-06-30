@@ -1,0 +1,97 @@
+html, body {/*Setting the height & width to 100%, removes any margin*/
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+.head {/*Styling the header*/
+    font-size: 18px;
+    color: white; 
+    padding: 0px;    
+}
+.ul1 {/*Styling the header navigation bar*/
+    list-style: none;/*So that no bullet points come*/
+    display: flex; /* For horizontal layout */
+    margin: 0px;
+    background: #191970;
+    padding: 10px;
+}
+.logo {/*Style and adjusting position of logo*/
+    margin-left: 10px;
+    margin-top: 10px;
+}
+li{/*Style for every list*/
+    margin-right: 50px;
+    margin-top: 25px;      
+}
+a{/*Style for "View Cart"*/
+    text-decoration: none;
+    color: white;
+}
+.cart {/*Styling and adjusting position of cart logo*/
+    margin-top: 15px;
+    
+}
+.search {/*Style for the search bar*/
+    margin-left: auto; /*This makes the search bar go to the right*/
+}
+.search input {/*Style for the input in the search bar*/
+    text-align: left;
+    padding: 5px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 20px;
+  }
+
+.image {
+    margin: 10px;
+    text-align: center;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.description {
+    color:chocolate;
+    margin-top: 5px;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    background-color: rgb(241, 241, 175);
+    padding: 10px;
+}
+.drop{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:firebrick;
+      
+}
+.cartButton{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkgoldenrod;
+}
+.cartButton:hover{
+    background-color: beige;
+}
+.foot {/*Styling the footer*/
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(16, 16, 81);
+    width: 100%;
+}
+
+.ul2 li {/*Styling the list*/
+    margin: 0px;
+    list-style: circle;/*Adds circles inplace of bullet points*/  
+}

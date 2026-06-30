@@ -1,0 +1,143 @@
+html, body {/*Setting the height & width to 100%, removes any margin*/
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+.head {/*Styling the header*/
+    font-size: 18px;
+    color: white; 
+    padding: 0px;    
+}
+.ul1 {/*Styling the header navigation bar*/
+    list-style: none;/*So that no bullet points come*/
+    display: flex; /* For horizontal layout */
+    margin: 0px;
+    background: #191970;
+    padding: 10px;
+}
+.logo {/*Style and adjusting position of logo*/
+    margin-left: 10px;
+    margin-top: 10px;
+}
+li{/*Style for every list*/
+    margin-right: 50px;
+    margin-top: 25px;      
+}
+a{/*Style for "View Cart"*/
+    text-decoration: none;
+    color: white;
+}
+.cart {/*Styling and adjusting position of cart logo*/
+    margin-top: 15px;
+    
+}
+.search {/*Style for the search bar*/
+    margin-left: auto; /*This makes the search bar go to the right*/
+}
+.search input {/*Style for the input in the search bar*/
+    text-align: left;
+    padding: 5px;
+}
+h1{/*Style for the title*/
+    text-align: center;
+    color: black;
+    background-color: rgb(241, 241, 175);
+    padding: 10px;
+    margin: 0px;
+}
+.mainPosition {/*Adjusting the position of the panel*/
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    flex-wrap: wrap;
+    background: url(Travel.jpeg) center/cover;/*Adjusts and adds the background image to make sure it doesnt go away*/
+}
+.SignUpPanel {/*Styling the panel itself*/
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    max-width: 400px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.SignUpPanel h2 {/*Style for SignUp text*/
+    text-align: center;
+    font-size: 24px;
+    color: #242124;
+    margin-bottom: 20px;
+}
+.TextBox {/*Spacing between textboxes below*/
+    margin-bottom: 15px;
+}
+
+.TextBox label {/*Style for each label*/
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #242124;
+}
+
+.TextBox input,.TextBox textarea,
+.TextBox select {/*Style for input box*/
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    max-width: 350px;
+}
+.checkbox {/*Style for checkox*/
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;/*for keeping contents in same line*/
+    margin-left: 00px;
+}
+.checkbox label {/*Styling the checkbox label text*/
+    font-size: 14px;
+    color: #242124;
+}
+div.combine{/*Styling the check box and Forgot Passowrd*/
+    display: flex;/*To put them on the same line*/
+    justify-content: space-between;/*To bring distance in between the checkbox and forgot password*/
+    align-items: center;
+}
+div.combine input[type="checkbox"] {
+    width: auto; /* Makes the width of checkbox to default size */
+}
+.buttonText {/*Styling the text withing the buttin*/
+    text-align: center;
+    width: 100%;
+}
+.button {/*Styling the button itself*/
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.button:hover {/*Changing the color of the button when mouse hovers over it*/
+    background-color: #387a3b;
+}
+.foot {/*Styling the footer*/
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(16, 16, 81);
+    width: 100%;
+}
+
+.ul2 li {/*Styling the list*/
+    margin: 0px;
+    list-style: circle;/*Adds circles inplace of bullet points*/  
+}

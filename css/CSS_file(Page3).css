@@ -1,0 +1,97 @@
+html, body {/*Setting the height & width to 100%, removes any margin*/
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+.head {/*Styling the header*/
+    font-size: 18px;
+    color: white; 
+    padding: 0px;    
+}
+.ul1 {/*Styling the header navigation bar*/
+    list-style: none;/*So that no bullet points come*/
+    display: flex; /* For horizontal layout */
+    margin: 0px;
+    background: #191970;
+    padding: 10px;
+}
+.logo {/*Style and adjusting position of logo*/
+    margin-left: 10px;
+    margin-top: 10px;
+}
+li{/*Style for every list*/
+    margin-right: 50px;
+    margin-top: 25px;      
+}
+a{/*Style for the links*/
+    text-decoration: none;
+    color: white;
+}
+.cart {/*Styling and adjusting position of cart logo*/
+    margin-top: 15px;
+    
+}
+.search {/*Style for the search bar*/
+    margin-left: auto; /*This makes the search bar go to the right*/
+}
+.search input {/*Style for the input in the search bar*/
+    text-align: left;
+    padding: 5px;
+}
+.title {/*Styling the header*/
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 1px;/*Expands the background around the text*/
+    background: rgb(241, 241, 175);
+    width: 100%;   
+}
+  /* Style for the image descriptions */
+.description {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+h2{
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+ /* Display images side by side */
+.imageContainer {
+    display: flex;
+    margin-top: 75px;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+}
+  /*Style for individual images*/
+.imageContainer img {
+    max-width: 400px; /* Max width for each image */
+    height: 300px;
+}
+.button{
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    transition: 0.4s ease; /*color transition speed*/
+}
+.button:hover {
+    background-color: rgb(119, 119, 94); /* Button background color on hover */
+    color: #f8f9fa; /* New text color on hover */
+}
+.foot {/*Styling the footer*/
+    font-size: 14px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(16, 16, 81);
+    width: 100%;
+}
+
+.ul2 li {/*Styling the list*/
+    margin: 0px;
+    list-style: circle;/*Adds circles inplace of bullet points*/  
+}

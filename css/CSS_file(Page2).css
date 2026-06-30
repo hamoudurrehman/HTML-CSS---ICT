@@ -1,0 +1,100 @@
+html, body {/*Setting the height & width to 100%, removes any margin*/
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+.head {/*Styling the header*/
+    font-size: 18px;
+    color: white; 
+    padding: 0px;    
+}
+.ul1 {/*Styling the header navigation bar*/
+    list-style: none;/*So that no bullet points come*/
+    display: flex; /* For horizontal layout */
+    margin: 0px;
+    background: #191970;
+    padding: 10px;
+}
+.logo {/*Style and adjusting position of logo*/
+    margin-left: 10px;
+    margin-top: 10px;
+}
+li{/*Style for every list*/
+    margin-right: 50px;
+    margin-top: 25px;      
+}
+a{/*Style for the links*/
+    text-decoration: none;
+    color: white;
+}
+.cart {/*Styling and adjusting position of cart logo*/
+    margin-top: 15px;
+    
+}
+.search {/*Style for the search bar*/
+    margin-left: auto; /*This makes the search bar go to the right*/
+}
+.search input {/*Style for the input in the search bar*/
+    text-align: left;
+    padding: 5px;
+}
+
+.main1 {/*Style and background for the first part of the main body*/
+    background-image: url('IntroBackground.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+.h1 {/*Style for h1 text*/
+    margin-top: 0px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    background-color: rgb(162, 153, 153);
+    padding: 10px;    
+}
+.h2 {/*Style for h2 text*/
+    margin-top: 200px;
+    margin-left: 80px;
+    font-size: 34px;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h3 {/*Style for h3 text*/
+    margin-left: 45px;
+    margin-top: 70px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main2{/*Style and background for the second part of the main body*/
+    background-image: url('Pic1.png');
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    color: black;
+}
+.h4{/*Style for h4 text*/
+    margin-top: 200px;
+    margin-left: 25%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);/*Makes the background semi-transparent*/
+    border: 1px solid black;/*Adds a border outline to the text*/
+    border-radius: 30px;
+    width: 45%;
+    text-align: justify;
+    padding: 25px;
+    position: absolute;/*Prevents "Pic1" from going down too*/
+}
+.foot {/*For styling the footer*/
+    font-size: 14px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(16, 16, 81);
+    width: 100%;
+}
+.ul2 li{/*For styling the list content in the footer*/
+    margin: 0;
+    list-style: circle;/*Adds circles instead of full bullet points*/  
+}

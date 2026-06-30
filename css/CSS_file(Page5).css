@@ -1,0 +1,102 @@
+html, body {/*Setting the height & width to 100%, removes any margin*/
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+.head {/*Styling the header*/
+    font-size: 18px;
+    color: white; 
+    padding: 0px;    
+}
+.ul1 {/*Styling the header navigation bar*/
+    list-style: none;/*So that no bullet points come*/
+    display: flex; /* For horizontal layout */
+    margin: 0px;
+    background: #191970;
+    padding: 10px;
+}
+.logo {/*Style and adjusting position of logo*/
+    margin-left: 10px;
+    margin-top: 10px;
+}
+li{/*Style for every list*/
+    margin-right: 50px;
+    margin-top: 25px;      
+}
+a{/*Style for "View Cart"*/
+    text-decoration: none;
+    color: white;
+}
+.cart {/*Styling and adjusting position of cart logo*/
+    margin-top: 15px;
+    
+}
+.search {/*Style for the search bar*/
+    margin-left: auto; /*This makes the search bar go to the right*/
+}
+.search input {/*Style for the input in the search bar*/
+    text-align: left;
+    padding: 5px;
+}
+h2{/*Style for the title*/
+    text-align: center;
+    color: black;
+    background-color: rgb(241, 241, 175);
+    padding: 10px;
+}
+.productDisplay {/*Styling panel for each product displayed*/
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;/*Changes to column layout*/
+    align-items: center; 
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.productDisplay img {/*Setting max limit of image size*/
+    max-width: 300px; 
+    max-height: 250px; 
+}
+
+.productDisplay h1, .productDisplay p {
+    margin: 10px; /*margin to separate elements*/
+}
+.remove{/*Styling the remove button*/
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(225, 62, 62);
+}
+.remove:hover{/*Styling the remove button when mouse hovers on it*/
+    background-color: beige;
+}
+.pages{/*Style for next page and before page buttons*/
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.Button{/*Style for remove button*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkgoldenrod;
+}
+.Button:hover{/*Style for remove button when hovered over*/
+    background-color: beige;
+}
+.foot {/*Styling the footer*/
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(16, 16, 81);
+    width: 100%;
+}
+
+.ul2 li {/*Styling the list*/
+    margin: 0px;
+    list-style: circle;/*Adds circles inplace of bullet points*/  
+}
+
