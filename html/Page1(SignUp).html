@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Adding title-->
+    <title>Sign Up! - OmniStyle</title>
+    <!--Attaching the CSS stylesheet-->
+    <link rel="stylesheet" href="CSS_file(Page1).css"/>
+</head>
+<body>
+    <!--Div section for header-->
+    <div class="head">
+        <div class="logo"><!--Alignment style for logo-->
+            <img src="Logo.png" height="125px"="Logo"><!--Inserting Logo-->
+        </div>
+            <header><!--Displaying header-->
+                <h1>Yay,New Customer!</h1>
+            </header>
+    </div>
+    <!--The main SignUp panel-->
+    <div class="mainPosition"><!--Aligns the Panel according to CSS-->
+        <div class="SignUpPanel"><!--Design for entire signup panel-->
+            <h2>Sign Up</h2>
+            <div class="combine"><!--To keep both first & last name in same line-->
+                <div class="TextBox"><!--Design for text box-->
+                    <label for="firstName">First Name</label><!--Design for first name-->
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="TextBox"><!--Design for text box-->
+                    <label for="lastName">Last Name</label><!--Design for last name-->
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+            </div>
+
+            <div class="TextBox"><!--Design for text box-->
+                <label for="email">Email</label><!--Design for email-->
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="combine"><!--To keep both password & confirm password in same line-->
+                <div class="TextBox"><!--Design for text box-->
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="TextBox password"><!--Design for text box-->
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+            </div>
+
+            <div class="TextBox"><!--Design for text box-->
+                <label for="country">Country</label>
+                <select id="country" name="country" required><!--Dropdown for selecting country-->
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="canada">Pakistan</option>
+                </select>
+            </div>
+
+            <div class="checkbox"><!--Design for checkbox-->
+                <input type="checkbox" id="subscribe" name="subscribe" checked><!--Inserting checkbox-->
+                <label for="subscribe">Subscribe to our newsletter</label>
+            </div>
+
+            <div class="buttonText"><!--Button for signup that will go to home screen-->
+                <a href="Page2(Home).html" class="button">SignUp</a>
+            </div>
+        </div>
+    </div>
+    <!--This section is foooter for contact details-->
+    <div class="foot">
+        <footer><!--Inserting number, email, etc as lists-->
+            Contact Information:
+            <ul>
+                <li><b>Number:</b> +92 34 2501 5859;</li>
+                <li><b>Email:</b> omnistyle_query@gmail.com</li>
+                <li><b>Address:</b> Islamabad, H11/4</li>
+                <li><b>Linkedin:</b> linkedin.com/in/linkedin.com/ln/OmniStyle</li>
+                <li><b>Instagram:</b> @OmniStyle</li>
+            </ul>    
+        </footer>  
+    </div>  
+</body>
+</html>

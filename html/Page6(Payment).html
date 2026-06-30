@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment - OmniStyle</title>
+    <link rel="stylesheet" href="CSS_file(Page6).css">
+</head>
+<body>
+     <!--Div section for header, where the logo and navigation bar are located-->
+     <div class="head">    
+        <ul class="ul1">
+            <li class="logo"><a href="Page2(Home).html"><img src="Logo2.png" height="60px"  alt="Logo"></a></li><!--Adding the logo to the header-->
+            <li><a href="Page2(Home).html">Home</a></li><!--Link to home page-->
+            <li><a href="Page3(Categories).html">Categories</a></li><!--Link to categories page-->
+            <li><a href="Page4(Functionality).html">Products</a></li><!--Link to products page-->
+            <li><a href="Page5(ShoppingCart).html">View Cart</a></li><!--Link to view cart-->
+            <li class="cart"><a href="Page5(ShoppingCart).html"><img src="ShoppingCart.svg" alt="Cart" height="35px"></a></li><!--Logo with link to Cart-->
+            <li><a href="Page1(Login).html">Sign Out</a></li><!--Link to Sign Out-->
+            <li class="search"><input type="text" placeholder="Search"></li><!--Search bar-->
+        </ul>
+    </div>
+    <!--The main payment panel-->
+    <h1>Make Payment</h1>
+    <div class="mainPosition"><!--Aligns the Panel according to CSS-->
+        <div class="SignUpPanel"><!--Design for entire signup panel-->
+            <h2>Enter your Details</h2>
+            <div class="combine"><!--To keep both first & last name in same line-->
+                <div class="TextBox"><!--Design for text box-->
+                    <label for="firstName">First Name</label><!--Design for first name-->
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="TextBox"><!--Design for text box-->
+                    <label for="lastName">Last Name</label><!--Design for last name-->
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+            </div>
+
+            <div class="TextBox"><!--Design for text box-->
+                <label for="contact">Contact no.</label><!--Design for contact no.-->
+                <input type="tel" id="contact" name="contact" required>
+            </div>
+
+            <div class="TextBox"><!--Design for text box-->
+                <label for="email">Email</label><!--Design for email-->
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="TextBox"><!--Design for text box-->
+                <label for="address">Address</label><!--Design for address-->
+                <textarea id="address" name="address" rows="4" required></textarea>
+            </div>
+
+            <div class="TextBox"><!--Design for text box-->
+                <label for="method">Select Payment Method</label>
+                <select id="method" name="method" required><!--Dropdown for selecting payment method-->
+                    <option value="Cash">Cash</option>
+                    <option value="Card">Card</option>
+                </select>
+            </div>
+
+            <div class="checkbox"><!--Design for checkbox-->
+                <input type="checkbox" id="subscribe" name="subscribe" checked><!--Inserting checkbox-->
+                <label for="subscribe">Recieve a reciept</label>
+            </div>
+
+            <div class="buttonText"><!--Button for payment that will go to home screen-->
+                <a href="Page2(Home).html" class="button">Make Payment</a>
+            </div>
+        </div>
+    </div>
+    <!--This section is foooter for contact details-->
+    <div class="foot">
+        <footer><!--Inserting number, email, etc as lists-->
+            Contact Information:
+            <ul class="ul2">
+                <li><b>Number:</b> +92 34 2501 5859;</li>
+                <li><b>Email:</b> omnistyle_query@gmail.com</li>
+                <li><b>Address:</b> Islamabad, H11/4</li>
+                <li><b>Linkedin:</b> linkedin.com/in/linkedin.com/ln/OmniStyle</li>
+                <li><b>Instagram:</b> @OmniStyle</li>
+            </ul>    
+        </footer>  
+    </div>   
+    
+
+    
+</body>
+</html>
